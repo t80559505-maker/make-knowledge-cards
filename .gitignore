@@ -1,0 +1,18 @@
+# Local assistant configuration
+.codex/
+
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+
+# Temporary files and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
